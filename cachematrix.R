@@ -35,9 +35,9 @@ cacheSolve <- function(x, ...) { # start of cacheSolve function
         
         if (!is.null(mat_inv)) { # check if the mat_inv is empty
         
-                message("getting cached data") 
+                message("getting cached data")  # print status
                 
-                return(mat_inv)
+                return(mat_inv) # print inverse matix
         
         }
         
